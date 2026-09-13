@@ -1,0 +1,8 @@
+class Calculator:
+
+    def add(self, a, b):
+        print("Sum =", a + b)
+
+c1 = Calculator()
+
+c1.add(10, 20)
