@@ -1,7 +1,7 @@
 name = input("Enter Name: ")
 marks = input("Enter Marks: ")
 
-file = open("student.txt", "a")
+file = open("data/student.txt", "a")
 
 file.write(name + " - " + marks + "\n")
 
